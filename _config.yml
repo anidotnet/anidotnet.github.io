@@ -12,18 +12,18 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: dbyll
+      title: abstract class {...}
 
-description: Stylish Jekyll Theme
+description: Abstract Class, Blog of Anindya Chatterjee
 author:
-  name: dbyll
-  email: dbyll@ismaildemirbilek.com
-  github: dbtek
-  twitter: dbtek
-  pinterest: asd123
-  linkedin: asd123
-  bio: Your stylish, minimalist theme!
-  email_md5: 726351295ec82e145928582f595aa3aa
+  name: Anindya Chatterjee
+  email: anidotnet@gmail.com
+  github: anidotnet
+  twitter: anidotnet
+  #pinterest: asd123
+  linkedin: anidotnet
+  bio: Blog of Anindya Chatterjee!
+  email_md5: 9c74f9c66df98052bef13864bffcd09c
 
 rss_path: feed.xml
 categories_path: categories.html
