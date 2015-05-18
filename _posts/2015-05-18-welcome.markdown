@@ -1,0 +1,30 @@
+---
+layout: post
+title: "Introduction"
+date: 2015-05-18
+categories: [general, welcome, introduction]
+tags: [general, welcome, intro]
+fullview: true
+---
+
+{% highlight java %}
+abstract class MyBlog {
+
+  /*
+  This is my personal blog. Here I'll be sharing my day-to-day experience as a programmer.
+  I am a Java developer by profession, but constantly fiddle with other technologies like
+  .Net/C#, Google Golang, HTML5/CSS/JS as well.
+
+  Most of the stuff here will be code snippets or a brief article about the stuff I play with.
+  I'll be more than happy and grateful if any of these will ever come in useful to anyone.
+
+  DISCLAIMER: All software is provided “AS IS”, without any express or implied warranty.
+  In no event will the author(s) or their employer(s) be held liable for any damages arising
+  from the use of this software. Please review the license included in each project download
+  for more information.
+  */
+
+  public abstract void happyCoding();
+
+}
+{% endhighlight %}
