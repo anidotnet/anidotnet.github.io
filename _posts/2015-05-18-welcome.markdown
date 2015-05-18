@@ -6,8 +6,7 @@ categories: [general, welcome, introduction]
 tags: [general, welcome, intro]
 fullview: true
 ---
-
-{% highlight java %}
+{% highlight Java %}
 abstract class MyBlog {
 
   /*
