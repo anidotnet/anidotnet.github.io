@@ -3,6 +3,34 @@ layout: page
 tagline:
 ---
 
+<article class="home">
+
+{% highlight Java %}
+abstract class MyBlog {
+
+  /*
+  This is my personal blog. Here I'll be sharing my day-to-day experience as a programmer.
+  I am a Java developer by profession, but constantly fiddle with other technologies like
+  .Net/C#, Google Golang, HTML5/CSS/JS as well.
+
+  Most of the stuff here will be code snippets or a brief article about the stuff I play with.
+  I'll be more than happy and grateful if any of these will ever come in useful to anyone.
+
+  DISCLAIMER: All software is provided “AS IS”, without any express or implied warranty.
+  In no event will the author(s) or their employer(s) be held liable for any damages arising
+  from the use of this software. Please review the license included in each project download
+  for more information.
+  */
+
+  public abstract void happyCoding();
+
+}
+{% endhighlight %}
+
+</article>
+
+<hr/>
+
 {% for post in paginator.posts %}
 
 <article class="home">
@@ -41,7 +69,7 @@ tagline:
 {% endfor %}
 <hr/>
 
-<ul class="pager"> 
+<ul class="pager">
 
   {% if paginator.previous_page %}
   <li class="previous">
@@ -56,7 +84,7 @@ tagline:
     <a>&larr; Newer</a>
   </li>
   {% endif %}
-  
+
   <li>
     <span class="page_number">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
   </li>
@@ -67,7 +95,7 @@ tagline:
   </li>
   {% else %}
   <li class="next disabled">
-    <a>Older &rarr;</a>        
+    <a>Older &rarr;</a>
   </li>
   {% endif %}
 
