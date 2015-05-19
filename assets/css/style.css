@@ -98,7 +98,7 @@ article{
 	margin-bottom: 20px;
 }
 
-.article_body p {
+.article_body>* {
 	font-family: 'Roboto Slab', 'Georgia', serif;
 	font-weight: 300;
 	font-size: 18px;
